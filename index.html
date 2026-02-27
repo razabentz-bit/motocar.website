@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHOWROOM MOCAR</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<header class="navbar">
+
+  <div class="nav-container">
+    <div class="logo">
+      <img src="images/Mocar Logo.jpeg" alt="Mocar Logo">
+      <span>
+    </div>
+
+    <nav>
+      <a href="#katalog">Katalog</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </div>
+
+</header>
+
+<section class="hero">
+  <div class="hero-overlay">
+    <h1>MOTOCAR INDONESIA</h1>
+    <p>Dealer Mobil Bekas Berkualitas & Resmi Penjualan VinFast</p>
+
+    <div class="hero-buttons">
+      <a href="#katalog" class="btn-primary">Lihat Katalog</a>
+      <a href="https://wa.me/6285178247141" target="_blank" class="btn-secondary">
+        Chat Sales Sekarang
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="katalog" class="gray-bg">
+  <h2>Katalog Mobil Bekas</h2>
+  <div class="grid" id="bekasList"></div>
+</section>
+
+<section>
+  <h2>Mobil Baru VinFast</h2>
+  <div class="grid">
+    <div class="card">
+       <span class="badge ready">READY</span>
+      <img src="images/VF 3 PNG Hijau.png" alt="VinFast VF 3"
+       style="width:100%; border-radius:15px; margin-bottom:15px;">
+      <h3>VinFast VF 3</h3>
+<p>City car listrik bergaya SUV mini (2 pintu, 4 kursi).</p>
+<p class="price">Harga OTR: Rp 156.000.000</p>
+<button class="btn" onclick="toggleSpec('vf3spec')">
+  Lihat Spesifikasi
+  <a href="https://wa.me/6285178247141?text=Saya%20tertarik%20VinFast%20VF3"
+   class="btn-wa"
+   target="_blank">
+   Chat Sales Sekarang
+</a>
+</button>
+
+<div id="vf3spec" style="display:none; margin-top:15px; text-align:left; font-size:14px; line-height:1.6;">
+  <strong>Performa Motor:</strong><br>
+  Motor: Permanent Synchronous Motor (PMSM)<br>
+  Penggerak: RWD (Rear-Wheel Drive)<br>
+  Tenaga: 40 HP (30 kW)<br>
+  Torsi: 110 Nm<br>
+  Akselerasi: 0-50 km/jam dalam 5,3 detik<br><br>
+
+  <strong>Baterai & Pengisian Daya:</strong><br>
+  Kapasitas: 18,64 kWh (Lithium-ion/LFP)<br>
+  Jarak Tempuh: ±215-217 km (NEDC/uji kota)<br>
+  DC Fast Charging: 10%-70% dalam 36 menit<br>
+  Konektor: CCS2<br><br>
+
+  <strong>Dimensi & Eksterior:</strong><br>
+  3190 x 1679 x 1652 mm<br>
+  Ground Clearance: 175 mm<br>
+  Velg: 16 inci<br>
+  Jumlah Pintu: 2 Pintu<br><br>
+
+  <strong>Interior & Fitur:</strong><br>
+  4 Kursi<br>
+  Head Unit: 10 inci<br><br>
+
+  <strong>Suspensi:</strong><br>
+  Depan: MacPherson independent<br>
+  Belakang: Rigid axle dengan panhard rod
+</div> <!-- vf3spec -->
+</div> <!-- card VF 3 -->
+    <div class="card">
+  <span class="badge ready">READY</span>
+
+  <img src="images/vf 5 back.avif" 
+       alt="VinFast VF 5" 
+       style="width:100%; border-radius:15px; margin-bottom:15px;">
+
+  <h3>VinFast VF 5</h3>
+  <p>SUV listrik stylish dengan fitur lengkap.</p>
+  <p class="price">Harga OTR: Rp 232.000.000</p>
+  <button class="btn" onclick="toggleSpec('vf5spec')">
+    Lihat Spesifikasi
+    <a href="https://wa.me/6285178247141?text=Saya%20tertarik%20VinFast%20VF3"
+   class="btn-wa"
+   target="_blank">
+   Chat Sales Sekarang
+</a>
+  </button>
+  
+  <div id="vf5spec" style="display:none; margin-top:15px; text-align:left; font-size:14px; line-height:1.6;">
+   <strong>Performa & Motor:</strong><br>
+    Motor listrik: 70 kW<br>
+    Torsi Maksimal: 135 Nm<br>
+    Penggerak: FWD<br><br>
+
+    <strong>Baterai:</strong><br>
+    Kapasitas: ±37,23 kWh<br>
+    Jarak Tempuh: ±300 km (NEDC)<br>
+    Fast Charging: ±30 menit (10–70%)<br><br>
+
+    <strong>Dimensi:</strong><br>
+    Panjang: ±3.965 mm<br>
+    Ground Clearance: ±160 mm<br><br>
+
+    <strong>Fitur:</strong><br>
+    Layar sentuh 8 inci<br>
+    Kamera parkir belakang<br>
+    ABS + EBD + ESC<br>
+    Airbag ganda<br>
+    Smart Key
+
+  </div>
+</div>
+    <div class="card">
+       <span class="badge ready">READY</span>
+      <img src="images/vf e34 back.webp" alt="VinFast VF e34" style="width:100%; border-radius:15px; margin-bottom:15px;">
+      <h3>VinFast VF e34</h3>
+      <p>SUV listrik premium dengan teknologi canggih.</p>
+      <p class="price">Harga OTR: Rp 299.000.000</p>
+      <button class="btn" onclick="toggleSpec('vfe34spec')">Lihat Spesifikasi
+        <a href="https://wa.me/6285178247141?text=Saya%20tertarik%20VinFast%20VF3"
+   class="btn-wa"
+   target="_blank">
+   Chat Sales Sekarang
+</a>
+      </button>
+ <div id="vfe34spec" style="display:none; margin-top:15px; line-height:1.6;">
+<strong>Performa & Motor:</strong><br>
+Motor listrik: 110 kW<br>
+Torsi Maksimal: 242 Nm<br>
+Penggerak: FWD<br><br>
+
+<strong>Baterai:</strong><br>
+Kapasitas: 41,9 kWh<br>
+Jarak Tempuh: ±318 km (NEDC)<br>
+Fast Charging: ±27 menit (10–70%)<br><br>
+
+<strong>Dimensi:</strong><br>
+Panjang: 4.300 mm<br>
+Ground Clearance: 180 mm<br><br>
+
+<strong>Fitur Premium:</strong><br>
+Head Unit 10 inci<br>
+ADAS<br>
+6 Airbag<br>
+Cruise Control<br>
+Panoramic Sunroof
+  </div>
+</section>
+
+<section class="gray-bg">
+  <h2>Keunggulan Produk</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Berkualitas</h3>
+      <p>Unit terseleksi, bergaransi mesin & transmisi.</p>
+    </div>
+    <div class="card">
+      <h3>Harga Terbaik</h3>
+      <p>Harga kompetitif & bisa nego langsung.</p>
+    </div>
+    <div class="card">
+      <h3>Proses Cepat</h3>
+      <p>Kredit dibantu hingga approve dengan proses mudah.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Benefit Pembelian di Mocar</h2>
+  <div class="benefit">
+    <p>✔ Free Konsultasi Kredit</p>
+    <p>✔ Trade In Mobil Lama</p>
+    <p>✔ Free Cek Kondisi Kendaraan</p>
+    <p>✔ Promo DP Ringan</p>
+    <p>✔ Garansi Mesin (S&K Berlaku)</p>
+  </div>
+</section>
+
+<footer>
+  <h3>MOCAR Showroom</h3>
+  <p>Dealer Mobil Bekas & Mobil Baru VinFast</p>
+  <p>© 2026 Mocar. All Rights Reserved.</p>
+</footer>
+
+<script src="main.js"></script>
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/6285178247141" 
+   class="wa-float" 
+   target="_blank">
+   💬 Chat WhatsApp
+</a>
+</body>
+</html>
